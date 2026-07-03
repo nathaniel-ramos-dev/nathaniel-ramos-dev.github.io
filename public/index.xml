@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nathaniel Ramos</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Nathaniel Ramos</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jul 2026 08:18:51 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 03 Jul 2026 08:18:51 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I am a backend-focused developer who enjoys building practical software systems that solve real operational problems.&lt;/p&gt;
+&lt;p&gt;Most of my experience comes from developing management platforms, internal tools, and data-driven applications where reliability, structure, and maintainability matter.&lt;/p&gt;
+&lt;p&gt;I enjoy designing application logic, organizing data flows, and creating systems that remain understandable as requirements grow.&lt;/p&gt;
+&lt;p&gt;While I can work across the full stack when needed, my current focus is improving my backend engineering skills and exploring Go through hands-on projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Expense Tracker API</title>
+      <link>http://localhost:1313/projects/expense-tracker-api/</link>
+      <pubDate>Fri, 03 Jul 2026 08:14:16 +0800</pubDate>
+      <guid>http://localhost:1313/projects/expense-tracker-api/</guid>
+      <description>&lt;p&gt;A full-stack expense tracking web application built with Go. Users can register, log in, and manage expenses through a web interface styled with Pico CSS and enhanced with HTMX for dynamic interactions.&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;Tech&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Language: 	Go 1.26&lt;/li&gt;
+&lt;li&gt;Web server: 	&lt;code&gt;net/http&lt;/code&gt; (stdlib) — no framework&lt;/li&gt;
+&lt;li&gt;Database: 	PostgreSQL&lt;/li&gt;
+&lt;li&gt;SQL layer: 	&lt;code&gt;sqlc&lt;/code&gt; (type-safe code generation from SQL)&lt;/li&gt;
+&lt;li&gt;Templates: 	&lt;code&gt;a-h/templ&lt;/code&gt; (type-safe HTML templates)&lt;/li&gt;
+&lt;li&gt;Auth: 	&lt;code&gt;golang-jwt/jwt/v5&lt;/code&gt; (JWT via HTTP-only cookies)&lt;/li&gt;
+&lt;li&gt;Passwords: 	&lt;code&gt;bcrypt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Frontend: 	HTMX + Pico CSS&lt;/li&gt;
+&lt;li&gt;Dev tools: 	&lt;code&gt;air&lt;/code&gt; (hot reload), templ watch mode&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 03 Jul 2026 08:12:01 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hello Hugo!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
