@@ -9,23 +9,28 @@
     <lastBuildDate>Fri, 03 Jul 2026 08:14:16 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>E-Barker</title>
+      <link>http://localhost:1313/projects/e-barker/</link>
+      <pubDate>Fri, 03 Jul 2026 08:14:16 +0800</pubDate>
+      <guid>http://localhost:1313/projects/e-barker/</guid>
+      <description>&lt;p&gt;E-Barker is a web-based terminal management system designed to streamline the daily operations of public transportation terminals. It replaces manual passenger and trip monitoring with a centralized platform that enables dispatchers and terminal personnel to manage vehicle departures, monitor terminal activity, and maintain accurate operational records in real time.&lt;/p&gt;
+&lt;p&gt;The system provides administrators with a centralized dashboard for overseeing terminal operations, improving record accuracy, reducing paperwork, and supporting more efficient coordination between personnel. By digitizing traditional workflows, E-Barker helps modernize public transport terminal management while providing timely and organized access to operational data.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Expense Tracker API</title>
       <link>http://localhost:1313/projects/expense-tracker-api/</link>
       <pubDate>Fri, 03 Jul 2026 08:14:16 +0800</pubDate>
       <guid>http://localhost:1313/projects/expense-tracker-api/</guid>
-      <description>&lt;p&gt;A full-stack expense tracking web application built with Go. Users can register, log in, and manage expenses through a web interface styled with Pico CSS and enhanced with HTMX for dynamic interactions.&lt;/p&gt;
-&lt;h2 id=&#34;tech&#34;&gt;Tech&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Language: 	Go 1.26&lt;/li&gt;
-&lt;li&gt;Web server: 	&lt;code&gt;net/http&lt;/code&gt; (stdlib) — no framework&lt;/li&gt;
-&lt;li&gt;Database: 	PostgreSQL&lt;/li&gt;
-&lt;li&gt;SQL layer: 	&lt;code&gt;sqlc&lt;/code&gt; (type-safe code generation from SQL)&lt;/li&gt;
-&lt;li&gt;Templates: 	&lt;code&gt;a-h/templ&lt;/code&gt; (type-safe HTML templates)&lt;/li&gt;
-&lt;li&gt;Auth: 	&lt;code&gt;golang-jwt/jwt/v5&lt;/code&gt; (JWT via HTTP-only cookies)&lt;/li&gt;
-&lt;li&gt;Passwords: 	&lt;code&gt;bcrypt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Frontend: 	HTMX + Pico CSS&lt;/li&gt;
-&lt;li&gt;Dev tools: 	&lt;code&gt;air&lt;/code&gt; (hot reload), templ watch mode&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;p&gt;An expense tracking application built with Go that provides a RESTful API alongside a lightweight server-rendered web interface. Users can create accounts, securely authenticate, and manage their personal expenses while tracking their spending through a simple and responsive interface.&lt;/p&gt;
+&lt;p&gt;The project was built to explore modern backend development in Go, emphasizing clean architecture, type-safe database access, secure authentication, and minimal JavaScript by leveraging server-side rendering with HTMX.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Survey Profiling Tool</title>
+      <link>http://localhost:1313/projects/survey-profiling-tool/</link>
+      <pubDate>Fri, 03 Jul 2026 08:14:16 +0800</pubDate>
+      <guid>http://localhost:1313/projects/survey-profiling-tool/</guid>
+      <description>&lt;p&gt;A full-stack web application developed as a capstone project for the Archdiocese of Tuguegarao to digitize parish family profiling and survey management. The platform replaces paper-based data collection with a centralized system that enables families to submit profiling information online while providing parish administrators with tools to review, organize, and manage survey records efficiently.&lt;/p&gt;
+&lt;p&gt;Designed to support multiple parishes, the system improves data accessibility, streamlines administrative workflows, and provides a secure, role-based environment for managing household profiling information across the archdiocese.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
